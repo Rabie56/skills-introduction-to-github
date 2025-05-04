@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <title>قص الفيديو إلى ريلز</title>
+</head>
+<body>
+    <h1>مرحبًا! ارفع الفيديو الطويل هنا</h1>
+    <input type="file" id="videoInput" accept="video/*">
+    <button onclick="uploadToKapwing()">قص الفيديو</button>
+
+    <script>
+        function uploadToKapwing() {
+            const file = document.getElementById('videoInput').files[0];
+            // هنا يمكنك ربط الكود مع API Kapwing (يتطلب مفتاح API)
+        }
+    </script>
+</body>
+</html>
